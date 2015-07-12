@@ -1,0 +1,150 @@
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:weightSum="3"
+            android:layout_centerHorizontal="true">
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:id="@+id/linearLayout"
+                android:layout_weight="1"
+                >
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/grid00"
+                    android:src="@drawable/grid"
+                    android:scaleType="centerInside"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:padding="5dp"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/grid10"
+                    android:src="@drawable/grid"
+                    android:scaleType="centerInside"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:padding="5dp"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/grid20"
+                    android:src="@drawable/grid"
+                    android:scaleType="centerInside"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:padding="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:id="@+id/linearLayout"
+                android:layout_weight="1">
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/grid01"
+                    android:src="@drawable/grid"
+                    android:clickable="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerInside"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:padding="5dp"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/grid11"
+                    android:src="@drawable/grid"
+                    android:scaleType="centerInside"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:padding="5dp"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/grid21"
+                    android:src="@drawable/grid"
+                    android:scaleType="centerInside"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:padding="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:id="@+id/linearLayout"
+                android:layout_weight="1">
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/grid02"
+                    android:src="@drawable/grid"
+                    android:clickable="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerInside"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:padding="5dp"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/grid12"
+                    android:src="@drawable/grid"
+                    android:scaleType="centerInside"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:padding="5dp"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/grid22"
+                    android:src="@drawable/grid"
+                    android:scaleType="centerInside"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:padding="5dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:background="#AA000000"/>
+
+
+</RelativeLayout>

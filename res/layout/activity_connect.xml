@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConnectActivity" >
+
+    <EditText
+        android:id="@+id/nicknameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="text"
+        android:lines="1"
+        android:maxLines="1" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/connectButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nicknameEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="Connecter..." />
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/channelEditText"
+            android:layout_above="@+id/nicknameEditText"
+            android:layout_alignLeft="@+id/nicknameEditText"
+            android:layout_marginBottom="18dp"
+            android:layout_alignRight="@+id/nicknameEditText"
+            android:text="salonClemFlo000"
+            android:ems="10"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLines="1" />
+
+</RelativeLayout>
